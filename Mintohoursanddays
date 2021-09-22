@@ -1,0 +1,18 @@
+import java.util.*;
+public class min 
+{
+ public static void main(String args[]) 
+	{
+	Scanner s=new Scanner(System.in);
+	int a,y,d,c;
+	System.out.println("Enter the minutes");
+	a=s.nextInt();
+	c=60*24*365;
+	y=a/c;
+	System.out.print(y+" years ");
+	a=a-(y*c);
+	c=60*24;
+	d=a/c;
+	System.out.print("and "+d+" days.");
+	}
+}
